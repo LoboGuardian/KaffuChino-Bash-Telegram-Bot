@@ -9,7 +9,8 @@ VER="v0.1"
 # Activate LOG
 # Make it a demon
 
-TOKEN="YOUR_TOKEN_BOT"
+#TOKEN="YOUR_TOKEN_BOT" 
+TOKEN= ${{ secrets.TOKEN }} 
 CHAT="$1"
 OPTION="$2"
 FILE="$3" #Also use for message see message()
